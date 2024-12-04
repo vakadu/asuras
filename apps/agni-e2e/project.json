@@ -1,9 +1,0 @@
-{
-  "name": "agni-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/agni-e2e/src",
-  "tags": [],
-  "implicitDependencies": ["agni"],
-  "// targets": "to see all targets run: nx show project agni-e2e --web",
-  "targets": {}
-}

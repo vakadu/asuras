@@ -15,20 +15,16 @@
 		"skipDefaultLibCheck": true,
 		"baseUrl": ".",
 		"paths": {
-			"@agni/components": ["apps/agni/components/index.ts"],
-			"@agni/store/*": ["apps/agni/store/*"],
-			"@agni/actions/*": ["apps/agni/actions/*"],
-			"@agni/helpers/*": ["apps/agni/helpers/*"],
-			"@devas/hooks": ["libs/hooks/src/index.ts"],
-			"@devas/hooks/server": ["libs/hooks/src/server.ts"],
-			"@devas/icons": ["libs/icons/src/index.ts"],
-			"@devas/icons/server": ["libs/icons/src/server.ts"],
-			"@devas/primitives": ["libs/primitives/src/index.ts"],
-			"@devas/primitives/server": ["libs/primitives/src/server.ts"],
-			"@devas/ui": ["libs/ui/src/index.ts"],
-			"@devas/ui/server": ["libs/ui/src/server.ts"],
-			"@devas/utils": ["libs/utils/src/index.ts"],
-			"@devas/utils/server": ["libs/utils/src/server.ts"]
+			"@asuras/hooks": ["libs/hooks/src/index.ts"],
+			"@asuras/hooks/server": ["libs/hooks/src/server.ts"],
+			"@asuras/icons": ["libs/icons/src/index.ts"],
+			"@asuras/icons/server": ["libs/icons/src/server.ts"],
+			"@asuras/primitives": ["libs/primitives/src/index.ts"],
+			"@asuras/primitives/server": ["libs/primitives/src/server.ts"],
+			"@asuras/ui": ["libs/ui/src/index.ts"],
+			"@asuras/ui/server": ["libs/ui/src/server.ts"],
+			"@asuras/utils": ["libs/utils/src/index.ts"],
+			"@asuras/utils/server": ["libs/utils/src/server.ts"]
 		}
 	},
 	"exclude": ["node_modules", "tmp"]

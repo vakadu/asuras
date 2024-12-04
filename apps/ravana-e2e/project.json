@@ -1,0 +1,9 @@
+{
+	"name": "ravana-e2e",
+	"$schema": "../../node_modules/nx/schemas/project-schema.json",
+	"sourceRoot": "apps/ravana-e2e/src",
+	"tags": [],
+	"implicitDependencies": ["ravana"],
+	"// targets": "to see all targets run: nx show project ravana-e2e --web",
+	"targets": {}
+}
