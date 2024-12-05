@@ -93,10 +93,7 @@ export default function Header1({ children }: { children: React.ReactNode }) {
 										</div>
 										<div className="button">
 											<Link href="/contact" className="theme-btn1">
-												Get A Quote{' '}
-												<span>
-													<i className="bi bi-arrow-right"></i>
-												</span>
+												Get A Quote
 											</Link>
 										</div>
 									</div>

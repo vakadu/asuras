@@ -45,7 +45,7 @@ export default function Hero() {
 								<div className="space30"></div>
 								<div className="buttons">
 									<Link
-										href="/"
+										href="/contact"
 										className="theme-btn1 !flex justify-center items-center"
 									>
 										Get Started Now
