@@ -928,7 +928,7 @@ button {
 }
 
 .hero1 {
-	min-height: 980px;
+	min-height: 780px;
 	display: flex;
 	padding-top: 130px;
 }
@@ -2771,3 +2771,118 @@ button {
 	CONTACT AREA CSS
    ::::::::::::::::::::::::::
    */
+
+/*
+::::::::::::::::::::::::::
+ SERVICE AREA CSS
+::::::::::::::::::::::::::
+*/
+.service {
+	background-color: var(--ztc-bg-bg-1);
+}
+.service .single-box {
+	background-color: var(--ztc-bg-color-w);
+	border-radius: 7px;
+	padding: 32px 24px;
+	margin-top: 30px;
+	transition: all 0.4s;
+}
+.service .single-box .icon {
+	background-color: var(--ztc-bg-bg-2);
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50%;
+	margin-bottom: 24px;
+	transition: all 0.4s;
+}
+.service .single-box .learn {
+	transition: all 0.4s;
+	color: var(--ztc-text-text-1);
+	font-size: var(--f-fs-font-fs18);
+	line-height: var(--f-fs-font-fs18);
+	font-weight: var(--f-fw-blod);
+	display: inline-block;
+}
+.service .single-box .learn span {
+	display: inline-block;
+	transform: rotate(-45deg);
+}
+.service .single-box .learn:hover {
+	color: var(--ztc-bg-main-bg-1);
+	transition: all 0.4s;
+}
+.service .single-box:hover {
+	transition: all 0.4s;
+	transform: translateY(-10px);
+	box-shadow: rgba(0, 0, 0, 0.068) 0px 20px 30px;
+	background-color: var(--ztc-bg-main-bg-1);
+}
+.service .single-box:hover .icon {
+	background-color: var(--ztc-bg-color-w);
+	transition: all 0.4s;
+}
+.service .single-box:hover .heading1 h4 a {
+	display: inline-block;
+	color: var(--ztc-bg-color-w);
+	transition: all 0.4s;
+}
+.service .single-box:hover .heading1 p {
+	color: rgba(255, 255, 255, 0.8);
+	transition: all 0.4s;
+}
+.service .single-box:hover .learn {
+	transition: all 0.4s;
+	color: var(--ztc-bg-color-w);
+}
+
+.footer1 .copyright-area {
+	border-top: 1px solid #e8eaed;
+}
+.footer1 .copyright-area .coppyright p {
+	font-size: var(--f-fs-font-fs16);
+	line-height: var(--f-fs-font-fs28);
+	font-weight: var(--f-fw-regular);
+	color: var(--ztc-text-pera-text-1);
+}
+@media (max-width: 767px) {
+	.footer1 .copyright-area .coppyright p {
+		padding-top: 16px;
+	}
+}
+.footer1 .copyright-area .coppyright a {
+	font-size: var(--f-fs-font-fs16);
+	line-height: var(--f-fs-font-fs28);
+	font-weight: var(--f-fw-regular);
+	color: var(--ztc-text-pera-text-1);
+	display: inline-block;
+}
+.footer1 .copyright-area .coppyright.right-area {
+	text-align: end;
+}
+@media (max-width: 767px) {
+	.footer1 .copyright-area .coppyright.right-area {
+		text-align: start;
+	}
+}
+.footer1 .copyright-area .coppyright.right-area a {
+	padding: 20px 20px;
+}
+.footer1 .copyright-area .coppyright.right-area a:nth-child(1) {
+	position: relative;
+}
+@media (max-width: 767px) {
+	.footer1 .copyright-area .coppyright.right-area a:nth-child(1) {
+		padding: 20px 20px 20px 0px;
+	}
+}
+.footer1 .copyright-area .coppyright.right-area a:nth-child(1)::after {
+	content: '';
+	position: absolute;
+	top: 24px;
+	right: 0;
+	width: 2px;
+	height: 20px;
+	background-color: #e8eaed;
+}

@@ -104,6 +104,27 @@ export default function Header1({ children }: { children: React.ReactNode }) {
 				</header>
 			</div>
 			{children}
+			<div className="footer1 _relative">
+				<div className="copyright-area">
+					<div className="container">
+						<div className="row align-items-center">
+							<div className="col-md-5">
+								<div className="coppyright">
+									<p>Copyright @2024 hiretoretire Rights Reserved</p>
+								</div>
+							</div>
+							<div className="col-md-7">
+								<div className="coppyright right-area">
+									<a href="mailto:hire2retire.co.in">hire2retire.co.in</a>
+									<a href="mailto:hire2retireindia@gmail.com">
+										hire2retireindia@gmail.com
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
