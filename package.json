@@ -6,6 +6,7 @@
 	"private": true,
 	"dependencies": {
 		"@hookform/resolvers": "^3.9.1",
+		"@next/third-parties": "^15.0.3",
 		"@radix-ui/react-alert-dialog": "^1.1.2",
 		"@radix-ui/react-aspect-ratio": "^1.1.0",
 		"@radix-ui/react-dialog": "^1.1.2",
@@ -14,6 +15,7 @@
 		"@radix-ui/react-slot": "^1.1.0",
 		"@reduxjs/toolkit": "^2.3.0",
 		"axios": "^1.7.7",
+		"bootstrap": "^5.3.3",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
 		"embla-carousel-react": "^8.4.0",
@@ -23,6 +25,7 @@
 		"next": "15.0.2",
 		"next-safe-action": "^7.9.9",
 		"react": "18.3.1",
+		"react-bootstrap": "^2.10.6",
 		"react-dom": "18.3.1",
 		"react-firebase-hooks": "^5.1.1",
 		"react-hook-form": "^7.53.2",

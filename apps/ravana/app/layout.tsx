@@ -1,6 +1,7 @@
 import localFont from 'next/font/local';
 
 import '../assets/css/global.css';
+import Providers from '../providers';
 
 export const metadata = {
 	title: 'Hire to Retire',
@@ -63,7 +64,9 @@ const sathoshi = localFont({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en" className={`${sathoshi.variable} font-sathoshi scroll-smooth`}>
-			<body>{children}</body>
+			<body>
+				<Providers>{children}</Providers>
+			</body>
 		</html>
 	);
 }
