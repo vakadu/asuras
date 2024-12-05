@@ -8,7 +8,7 @@ export default function Hero() {
 	useEffect(() => {
 		const backgroundElements = document.querySelectorAll('[data-background]');
 
-		backgroundElements.forEach((element) => {
+		backgroundElements.forEach((element: any) => {
 			const image = element.dataset.background;
 			if (image) {
 				element.style.backgroundImage = `url('${image}')`;
