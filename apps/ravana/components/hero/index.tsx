@@ -32,7 +32,7 @@ export default function Hero() {
 								</span>
 								<h1 className="title tg-element-title">
 									We Empower your Business{' '}
-									<span className="after">IT Solutions</span>
+									{/* <span className="after">IT Solutions</span> */}
 								</h1>
 								<div className="space16"></div>
 								<p>
@@ -44,7 +44,10 @@ export default function Hero() {
 
 								<div className="space30"></div>
 								<div className="buttons">
-									<Link href="/" className="theme-btn1">
+									<Link
+										href="/"
+										className="theme-btn1 !flex justify-center items-center"
+									>
 										Get Started Now
 										<span>
 											<ArrowRight />
@@ -57,17 +60,17 @@ export default function Hero() {
 						<div className="col-lg-7">
 							<div className="hero1-all-images">
 								<div className="image1 ">
-									<img src="/images/hero1-image1.png" alt="" />
+									<img src="/images/hero1-image1.webp" alt="" />
 								</div>
 								<div className="image2">
-									<img src="/images/hero1-image2.png" alt="" />
+									<img src="/images/hero1-image2.webp" alt="" />
 								</div>
-								<div className="image3 shape-animaiton3">
+								{/* <div className="image3 shape-animaiton3">
 									<img src="/images/hero1-image3.png" alt="" />
 								</div>
 								<div className="image4 shape-animaiton3">
 									<img src="/images/hero1-image4.png" alt="" />
-								</div>
+								</div> */}
 								<div className="shape1">
 									<img src="/shapes/header1-shape1.png" alt="" />
 								</div>
