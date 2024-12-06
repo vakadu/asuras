@@ -36,12 +36,10 @@ export default function Hero() {
 								</h1>
 								<div className="space16"></div>
 								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-									repellendus quod eaque explicabo facilis voluptate, minima non
-									excepturi provident numquam obcaecati consequuntur adipisci
-									fugit accusantium totam alias saepe voluptatibus suscipit?
+									H2R offers extensive range of quality HR process serivce. we
+									offer HR process Scan to HR Process Setup at your door step for
+									your small and medium size business.
 								</p>
-
 								<div className="space30"></div>
 								<div className="buttons">
 									<Link

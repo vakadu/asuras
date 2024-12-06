@@ -2886,3 +2886,78 @@ button {
 	height: 20px;
 	background-color: #e8eaed;
 }
+
+/*
+::::::::::::::::::::::::::
+ CTA AREA CSS
+::::::::::::::::::::::::::
+*/
+.cta {
+	background-color: var(--ztc-bg-main-bg-1);
+	padding: 80px 0px;
+}
+.cta .buttons {
+	text-align: end;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.cta .buttons {
+		text-align: start;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 767px) {
+	.cta .buttons {
+		text-align: start;
+		margin-top: 20px;
+	}
+}
+
+.cta-btn1 {
+	display: inline-block;
+	background-color: var(--ztc-text-text-2);
+	border-radius: 5px;
+	padding: 16px 20px;
+	color: var(--ztc-bg-main-bg-1);
+	font-weight: var(--f-fw-blod);
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	transition: all 0.4s;
+}
+.cta-btn1::after {
+	content: '';
+	position: absolute;
+	background-image: url(../../public/icons/button-img.png);
+	height: 100%;
+	width: 0%;
+	top: 0;
+	left: auto;
+	right: 0;
+	z-index: 2;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transform: scale(1.5);
+	transition: all 0.4s;
+	animation-name: shape-animaiton4;
+	animation-duration: 52s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+.cta-btn1 span {
+	display: inline-block;
+}
+.cta-btn1:hover {
+	color: #fff;
+	transform: translateY(-4px);
+	transition: all 0.4s;
+	background-color: var(--ztc-bg-main-bg-1);
+}
+.cta-btn1:hover::after {
+	width: 100%;
+	transition: all 0.4s;
+	left: 0;
+	right: auto;
+}
